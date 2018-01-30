@@ -27,7 +27,6 @@ public class comb {
 				for (long i = N; i > K; i--) {
 					result = (result / a) * i;
 					a+=1;
-//					N-=1;
 				}
 				
 				System.out.println((long) result);
